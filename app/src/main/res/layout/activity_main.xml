@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:outlineProvider="none">
+
+        <ImageView
+            android:id="@+id/image_01"
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:baseline="10dp"
+
+            android:tag="stringhoppers" />
+
+        <ImageView
+            android:id="@+id/image_02"
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+
+
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvName01"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/name_01"
+            android:textColor="#FD000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvName02"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/name_02"
+            android:textColor="#FD000000"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvRating01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tvRating02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/image_03"
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/image_04"
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvName03"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/name_03"
+            android:textColor="#FD000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvName04"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/name_04"
+            android:textColor="#FD000000"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvRating03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tvRating04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal" />
+    </TableRow>
+</TableLayout>

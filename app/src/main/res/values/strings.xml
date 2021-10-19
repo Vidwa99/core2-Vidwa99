@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SDMDCore2</string>
+
+    <string name="name_01">Dota 2</string>
+    <string name="name_02">Call Of Duty Mobile</string>
+    <string name="name_03">Need For Speed Heat</string>
+    <string name="name_04">PUBG</string>
+
+    <string name="label_name">Name</string>
+    <string name="label_date">Date</string>
+    <string name="label_Type">Type</string>
+    <string name="label_rating">Rating</string>
+</resources>
